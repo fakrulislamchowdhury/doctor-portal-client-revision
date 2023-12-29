@@ -1,12 +1,12 @@
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Navigation from './Pages/Shared/Navigation/Navigation';
+import Home from './Pages/Home/Home/Home';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Navigation></Navigation>
+        <Home></Home>
         <Switch>
           <Route exact path='/home'>
 
